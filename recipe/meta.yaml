@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fluidsim-core-{{ version }}.tar.gz
-  sha256: 7684ffa7a651b5e97158331dfcb7b3ba707a46e2250f933082a3c217bf28e07b
+  sha256: e9e0f37f0d360ca6825f1b0ee63571b7b04a8163510b0113be80277c7bc791fd
 
 build:
   number: 0

@@ -1,5 +1,5 @@
 {% set name = "fluidsim-core" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0b0" %}
 
 
 package:
@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - entrypoints
     - fluiddyn >=0.3.2
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:

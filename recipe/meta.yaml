@@ -1,5 +1,5 @@
 {% set name = "fluidsim-core" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fluidsim-core-{{ version }}.tar.gz
-  sha256: 7684ffa7a651b5e97158331dfcb7b3ba707a46e2250f933082a3c217bf28e07b
+  sha256: d63b9fb2b7a08e2ae383efe9683bee07d12e646ebe6dc5c1f0a62d73166d0d85
 
 build:
   number: 0

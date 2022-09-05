@@ -1,6 +1,5 @@
 {% set name = "fluidsim-core" %}
-{% set version = "0.6.0" %}
-
+{% set version = "0.6.1rc0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fluidsim-core-{{ version }}.tar.gz
-  sha256: d63b9fb2b7a08e2ae383efe9683bee07d12e646ebe6dc5c1f0a62d73166d0d85
+  sha256: fe831b1ecee1d52dcdb386bd38ca3dc7afececef05f1aea2220e83b406e45ddf
 
 build:
   number: 0
@@ -18,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - entrypoints
     - fluiddyn >=0.3.2
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:

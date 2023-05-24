@@ -1,11 +1,11 @@
-About fluidsim-core
-===================
+About fluidsim-core-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fluidsim-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://foss.heptapod.net/fluiddyn/fluidsim
 
 Package license: LicenseRef-CeCILL
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fluidsim-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pure-Python core library for FluidSim framework
 

@@ -16,12 +16,13 @@ build:
 
 requirements:
   host:
+    - python >=3.9
     - pip
-    - python >=3.9
+    - flit_core
   run:
-    - entrypoints
-    - fluiddyn >=0.3.2
     - python >=3.9
+    - importlib_metadata
+    - fluiddyn >=0.3.2
 
 test:
   imports:
